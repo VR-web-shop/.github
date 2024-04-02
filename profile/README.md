@@ -5,7 +5,6 @@ This organization is all about building a VR webshop powered by microservices.
 **Backend Microservices:**
 * [Auth](https://github.com/VR-web-shop/Auth) - Handles Authentication and Authorization
 * [Products](https://github.com/VR-web-shop/Products) - Handles Products
-* [Billing](https://github.com/VR-web-shop/Billing) - Handles Purchases
 * [Shopping Cart](https://github.com/VR-web-shop/Shopping-Cart) - Handles Shopping Cart stuff
 * [Scenes](https://github.com/VR-web-shop/Scenes) - Handles 3D Scenes
 
@@ -20,5 +19,4 @@ This organization is all about building a VR webshop powered by microservices.
 * [Products SDK](https://github.com/VR-web-shop/Products/pkgs/npm/products) - SDK to access Products API
 * [Scenes SDK](https://github.com/VR-web-shop/Scenes/pkgs/npm/scenes) - SDK to access Scenes API
 * [Shopping Cart SDK](https://github.com/VR-web-shop/Shopping-Cart/pkgs/npm/shopping-cart) - SDK to access Shopping Cart API
-* [Billing SDK](https://github.com/VR-web-shop/Billing/pkgs/npm/billing) - SDK to access Billing API
 
