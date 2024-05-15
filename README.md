@@ -1,4 +1,5 @@
 # Deploy webshop to localhost
+NOTE: It requires a GitHub (Classic) access token with package read access to install packages from the organization NPM Registry.
 
 ## Setup Auth
 ```
@@ -138,4 +139,57 @@ cp .npmrc.example cp.npmrc
 
 docker build -t scenesvrclient:v1.0 .
 docker run -p 5175:5175 scenesvrclient:v1.0
+```
+
+## Setup MySQL & RabbitMQ & Elasticsearch & Kibana
+```
+mkdir other-services
+cd other-services
+
+cat <<EOF > docker-compose.yaml
+services:
+  mysql:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=db
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-volume:/var/lib/mysql
+
+  rabbit:
+    image: rabbitmq:latest
+    environment:
+      - RABBITMQ_DEFAULT_USER=rabbit
+      - RABBITMQ_DEFAULT_PASS=password
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - 9200:9200
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.13.4
+    ports:
+      - 5601:5601
+    depends_on:
+      - elasticsearch
+    environment:
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+      ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+      ELASTICSEARCH_USERNAME: kibana_system
+
+volumes:
+  mysql-volume:
+EOF
+
+docker compose up
 ```
