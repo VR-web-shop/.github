@@ -24,10 +24,30 @@ Demo Video: https://youtu.be/tASHuZhheO0?si=t7rcLW5ph_KXSJEo
 
 ## **CI/CD Status:**
 
-* **Auth:** [![VM Publish Production](https://github.com/VR-web-shop/Auth/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Auth/actions/workflows/vm-publish-production.yml)
-* **Products:** [![VM Publish Production](https://github.com/VR-web-shop/Products/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Products/actions/workflows/vm-publish-production.yml)
-* **Shopping Cart:** [![VM Publish Production](https://github.com/VR-web-shop/Shopping-Cart/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Shopping-Cart/actions/workflows/vm-publish-production.yml)
-* **Scenes:** [![VM Publish Production](https://github.com/VR-web-shop/Scenes/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Scenes/actions/workflows/vm-publish-production.yml)
-* **Admin-Client:** [![VM Publish Production](https://github.com/VR-web-shop/Admin-Client/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Admin-Client/actions/workflows/vm-publish-production.yml)
-* **Scenes-VR-Client:** [![VM Publish Production](https://github.com/VR-web-shop/Scenes-VR-Client/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Scenes-VR-Client/actions/workflows/vm-publish-production.yml)
-* **Scenes-Editor-Client:** [![VM Publish Production](https://github.com/VR-web-shop/Scenes-Editor-Client/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Scenes-Editor-Client/actions/workflows/vm-publish-production.yml)
+* **Auth:**
+ 
+[![VM Publish Production](https://github.com/VR-web-shop/Auth/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Auth/actions/workflows/vm-publish-production.yml)
+
+* **Products:**
+
+[![VM Publish Production](https://github.com/VR-web-shop/Products/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Products/actions/workflows/vm-publish-production.yml)
+
+* **Shopping Cart:**
+
+[![VM Publish Production](https://github.com/VR-web-shop/Shopping-Cart/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Shopping-Cart/actions/workflows/vm-publish-production.yml)
+
+* **Scenes:**
+
+[![VM Publish Production](https://github.com/VR-web-shop/Scenes/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Scenes/actions/workflows/vm-publish-production.yml)
+
+* **Admin-Client:**
+
+[![VM Publish Production](https://github.com/VR-web-shop/Admin-Client/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Admin-Client/actions/workflows/vm-publish-production.yml)
+
+* **Scenes-VR-Client:**
+
+[![VM Publish Production](https://github.com/VR-web-shop/Scenes-VR-Client/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Scenes-VR-Client/actions/workflows/vm-publish-production.yml)
+
+* **Scenes-Editor-Client:**
+
+[![VM Publish Production](https://github.com/VR-web-shop/Scenes-Editor-Client/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Scenes-Editor-Client/actions/workflows/vm-publish-production.yml)
