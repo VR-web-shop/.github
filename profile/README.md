@@ -22,3 +22,11 @@ Demo Video: https://youtu.be/tASHuZhheO0?si=t7rcLW5ph_KXSJEo
 * [Scenes SDK](https://github.com/VR-web-shop/Scenes/pkgs/npm/scenes) - SDK to access Scenes API
 * [Shopping Cart SDK](https://github.com/VR-web-shop/Shopping-Cart/pkgs/npm/shopping-cart) - SDK to access Shopping Cart API
 
+**CI/CD**
+* Auth: [![VM Publish Production](https://github.com/VR-web-shop/Auth/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Auth/actions/workflows/vm-publish-production.yml)
+* Products: [![VM Publish Production](https://github.com/VR-web-shop/Products/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Products/actions/workflows/vm-publish-production.yml)
+* Shopping Cart: [![VM Publish Production](https://github.com/VR-web-shop/Shopping-Cart/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Shopping-Cart/actions/workflows/vm-publish-production.yml)
+* Scenes: [![VM Publish Production](https://github.com/VR-web-shop/Scenes/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Scenes/actions/workflows/vm-publish-production.yml)
+* Admin-Client: [![VM Publish Production](https://github.com/VR-web-shop/Admin-Client/actions/workflows/vm-publish-production.yml/badge.svg)](https://github.com/VR-web-shop/Admin-Client/actions/workflows/vm-publish-production.yml)
+* Scenes-VR-Client:
+* Scenes-Editor-Client: 
