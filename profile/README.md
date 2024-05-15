@@ -22,6 +22,9 @@ Demo Video: https://youtu.be/tASHuZhheO0?si=t7rcLW5ph_KXSJEo
 * [Scenes SDK](https://github.com/VR-web-shop/Scenes/pkgs/npm/scenes) - SDK to access Scenes API
 * [Shopping Cart SDK](https://github.com/VR-web-shop/Shopping-Cart/pkgs/npm/shopping-cart) - SDK to access Shopping Cart API
 
+## **Setup Guide:**
+[https://github.com/VR-web-shop/.github/blob/main/README.md](https://github.com/VR-web-shop/.github/blob/main/README.md)
+
 ## **CI/CD Status:**
 
 * **Auth:**
