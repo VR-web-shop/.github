@@ -16,7 +16,7 @@ Demo Video: https://youtu.be/tASHuZhheO0?si=t7rcLW5ph_KXSJEo
 * [Admin](https://github.com/VR-web-shop/Admin-Client) - A client used to configure products, billing, and employee users
 
 ## **Packages:**
-* [METEOR](https://github.com/VR-web-shop/METEOR/pkgs/npm/meteor) - Model Express Toolkit for Efficient ORM REST-APIs
+* [sagas](https://github.com/VR-web-shop/Sagas/pkgs/npm/sagas) - sagas
 * [Auth SDK](https://github.com/VR-web-shop/Auth/pkgs/npm/auth) - SDK to access Auth API
 * [Products SDK](https://github.com/VR-web-shop/Products/pkgs/npm/products) - SDK to access Products API
 * [Scenes SDK](https://github.com/VR-web-shop/Scenes/pkgs/npm/scenes) - SDK to access Scenes API
