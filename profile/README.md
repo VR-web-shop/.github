@@ -2,6 +2,8 @@
 
 This organization is all about building a VR webshop powered by microservices.
 
+Project Video (Quest 2 Standalone): https://youtu.be/gZ16FViAOOE?si=ifCeEj3LTMLOvdMT
+
 Demo Video (PC VR): https://youtu.be/tASHuZhheO0?si=t7rcLW5ph_KXSJEo
 
 Demo Video (Quest 2 Standalone): https://youtu.be/IJb4X2GaqNw
